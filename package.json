@@ -21,5 +21,8 @@
   "homepage": "https://github.com/cploutarchou/simple-nodejs-ws-chat-app#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
