@@ -1,12 +1,22 @@
 {
   "name": "simple-nodejs-ws-chat-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Simple Node js chat app using node express and web sockets",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cploutarchou/simple-nodejs-ws-chat-app.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Christos Ploutarchou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cploutarchou/simple-nodejs-ws-chat-app/issues"
+  },
+  "homepage": "https://github.com/cploutarchou/simple-nodejs-ws-chat-app#readme"
 }
