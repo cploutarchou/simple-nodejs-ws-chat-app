@@ -1,6 +1,6 @@
 //Create Socket Connection
 // exports.openSocket = ss;
-const openSocket = io.connect('http://localhost:80');
+const openSocket = io.connect('http://localhost:8585');
 //Dom
 
 let message, name, btn, output;
@@ -38,18 +38,18 @@ const sendMessage = () => {
 };
 
 // Init Event
-btn.addEventListener('click', () => {
+btn.addEventListener('click', function () {
     sendMessage();
 
 });
-message.addEventListener('keypress', () => {
+message.addEventListener('keypress', function () {
     openSocket.emit('typing', name.value);
 
 });
-message.addEventListener('keyup', (e) => {
-    if (e.keyCode === 13) {
+message.addEventListener('keyup', function (e) {
+    if (e.keyCode === 13)
         sendMessage();
-    }
+
 });
 
 //Check for event
